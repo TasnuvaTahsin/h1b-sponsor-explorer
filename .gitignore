@@ -1,0 +1,22 @@
+# Raw and clean data (too large for GitHub; see data/README.md)
+data/raw/
+data/clean/
+*.xlsx
+*.csv
+!data/sample/*.csv
+
+# Power BI cache and local settings
+*.abf
+.pbi/
+*.pbix.bak
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Office / OS temp files
+~$*
+desktop.ini
+Thumbs.db
+.DS_Store
